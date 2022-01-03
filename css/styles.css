@@ -31,7 +31,31 @@ a {
 }
 
 .container {
-  border: 1px solid red;
+  outline: 1px solid red;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+/*************************** visually-hidden************************ */
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+/********************************section ******************************/
+
+.section {
+  margin-bottom: 94px;
 }
 
 /* logo */
@@ -49,7 +73,10 @@ a {
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
-
+.header {
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
 /* site nav */
 .site-nav {
   color: var(--title-text-color);
@@ -78,7 +105,7 @@ a {
   color: var(--accent-color);
 }
 
-/* hero */
+/************************************* hero *************************************/
 h1 {
   font-weight: 900;
   font-size: 44px;
@@ -90,9 +117,16 @@ h1 {
 }
 .hero {
   background-color: #2f303a;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  margin-bottom: 94px;
+}
+.hero-title {
+  margin-bottom: 30px;
 }
 /* button */
 .button {
+  display: inline-block;
   font-family: inherit;
   font-weight: bold;
   font-size: 16px;
@@ -103,6 +137,11 @@ h1 {
   letter-spacing: 0.06em;
   background-color: var(--accent-color);
   color: #fff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  margin: 0 auto;
+  padding: 10px 32px 10px 32px;
+  border: hidden;
 }
 .button:hover {
   background-color: #188ce8;
@@ -135,7 +174,7 @@ h1 {
   color: #ffffff;
 }
 
-/* section title*/
+/********************** section title*************************/
 
 .section-title {
   font-weight: bold;
@@ -144,9 +183,12 @@ h1 {
   letter-spacing: 0.03em;
   text-align: center;
   color: var(--title-text-color);
+  margin-bottom: 50px;
 }
-
-/* features */
+.title {
+  margin-bottom: 10px;
+}
+/************************** features ************************************/
 .features .title {
   font-weight: bold;
   font-size: 14px;
@@ -162,9 +204,10 @@ h1 {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--features-info-color);
+  max-width: 270px;
 }
 
-/* team */
+/***************************** team ***********************/
 
 .team {
   background-color: #f5f4fa;
@@ -177,6 +220,9 @@ h1 {
   text-align: center;
   color: var(--title-text-color);
 }
+.name {
+  margin-bottom: 10px;
+}
 .bio .profession {
   font-weight: normal;
   font-size: 16px;
@@ -186,7 +232,7 @@ h1 {
   color: var(--profession-color);
 }
 
-/* portfolio-progect */
+/***************************** portfolio-progect ********************************************/
 .portfolio-progect h3 {
   font-weight: bold;
   font-size: 18px;
@@ -209,6 +255,9 @@ h1 {
 
 .footer {
   background-color: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-left: 215px;
 }
 
 .footer-logo {

@@ -33,7 +33,7 @@ img {
   display: block;
 }
 .container {
-  /* outline: 1px solid red; */
+  outline: 1px solid red;
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
@@ -332,6 +332,10 @@ h1 {
 .footer-second-element-logo {
   color: #ffffff;
 }
+.address-link {
+  margin-top: 20px;
+}
+
 .link-map {
   font-family: Roboto;
   font-style: normal;
@@ -340,6 +344,9 @@ h1 {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #ffffff;
+}
+.link-item:not(:last-child) {
+  margin-bottom: 9px;
 }
 .footer-link {
   font-style: normal;

@@ -187,6 +187,11 @@ h1 {
 .portfolio-button {
   display: flex;
   justify-content: center;
+  margin-bottom: 50px;
+}
+
+.button-item:not(:last-child) {
+  margin-right: 8px;
 }
 .button-portfolio {
   font-family: inherit;
@@ -198,12 +203,17 @@ h1 {
   color: #212121;
   background-color: #f5f4fa;
   cursor: pointer;
+  border: hidden;
+  border-radius: 4px;
+  padding: 6px 22px;
 }
+
 .button-portfolio:hover,
 .button-portfolio:focus {
   background-color: #2196f3;
   color: #ffffff;
 }
+
 .button-portfolio-all {
   font-family: inherit;
   font-weight: 500;
@@ -213,6 +223,10 @@ h1 {
   letter-spacing: 0.03em;
   background-color: #2196f3;
   color: #ffffff;
+  cursor: pointer;
+  border: hidden;
+  border-radius: 4px;
+  padding: 6px 22px;
 }
 
 /********************** section title*************************/

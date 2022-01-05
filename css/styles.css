@@ -33,7 +33,7 @@ img {
   display: block;
 }
 .container {
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
@@ -318,7 +318,9 @@ h1 {
 
   letter-spacing: 0.06em;
 }
-
+.portfolio-project {
+  padding-bottom: 94px;
+}
 .portfolio-project p {
   font-weight: normal;
   font-size: 16px;
@@ -331,10 +333,17 @@ h1 {
 .portfolio-wrrap {
   display: flex;
   flex-wrap: wrap;
-  background-color: teal;
+  /* background-color: teal; */
+}
+.project-wrrap p {
+  padding-bottom: 20px;
+}
+.project-wrrap h3 {
+  margin-top: 20px;
+  margin-bottom: 4px;
 }
 .project-wrrap {
-  background-color: red;
+  /* background-color: red; */
   width: 370px;
   margin-right: 30px;
   margin-bottom: 30px;

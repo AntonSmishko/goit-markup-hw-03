@@ -152,7 +152,10 @@ h1 {
   margin-bottom: 94px;
 }
 .hero-title {
+  display: flex;
+  margin: auto;
   margin-bottom: 30px;
+  width: 696px;
 }
 /* button */
 .button {

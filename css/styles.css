@@ -76,12 +76,17 @@ img {
   letter-spacing: 0.03em;
 }
 /* ******************** header ********************** */
+.main-nav {
+  display: flex;
+  align-items: center;
+}
 .header {
   padding-top: 24px;
   padding-bottom: 25px;
 }
 .header-nav {
   display: flex;
+  margin-left: 93px;
 }
 /**************************************** site nav *****************************/
 /* .site-nav-item {
@@ -113,6 +118,7 @@ img {
 /********************************** link ****************************************/
 .header-link {
   display: flex;
+  margin-left: auto;
 }
 .link-item:not(:last-child) {
   margin-right: 50px;

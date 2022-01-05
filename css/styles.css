@@ -83,6 +83,7 @@ img {
 .header {
   padding-top: 24px;
   padding-bottom: 25px;
+  border-bottom: 1px solid #ececec;
 }
 .header-nav {
   display: flex;
@@ -222,6 +223,12 @@ h1 {
   margin-bottom: 10px;
 }
 /************************** features ************************************/
+.features {
+  display: flex;
+}
+.features-wrap:not(:last-child) {
+  margin-right: 30px;
+}
 .features .title {
   font-weight: bold;
   font-size: 14px;

@@ -57,7 +57,8 @@ img {
 /********************************section ******************************/
 
 .section {
-  margin-bottom: 94px;
+  /* margin-bottom: 94px; */
+  padding-bottom: 94px;
 }
 
 /***************************** logo ******************************/
@@ -284,7 +285,10 @@ h1 {
   text-align: center;
   color: var(--profession-color);
 }
-
+.wrrap-team {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
 /***************************** portfolio-progect ********************************************/
 .portfolio-progect h3 {
   font-weight: bold;

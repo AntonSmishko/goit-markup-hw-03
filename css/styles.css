@@ -80,12 +80,13 @@ img {
 .main-nav {
   display: flex;
   align-items: center;
-  border-bottom: 1px solid #ececec;
+  /* border-bottom: 1px solid #ececec; */
   padding-bottom: 25px;
   padding-top: 24px;
 }
 .header-portfolio {
-  padding-bottom: 94px;
+  /* padding-bottom: 94px; */
+  border-bottom: 1px solid #ececec;
 }
 .header-nav {
   display: flex;
@@ -319,6 +320,7 @@ h1 {
   letter-spacing: 0.06em;
 }
 .portfolio-project {
+  padding-top: 94px;
   padding-bottom: 94px;
 }
 .portfolio-project p {
@@ -347,6 +349,8 @@ h1 {
   width: 370px;
   margin-right: 30px;
   margin-bottom: 30px;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
 }
 .project-wrrap:nth-child(3n) {
   margin-right: 0;

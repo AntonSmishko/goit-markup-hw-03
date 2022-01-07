@@ -297,6 +297,7 @@ h1 {
 .name {
   margin-bottom: 10px;
 }
+
 .bio .profession {
   font-weight: normal;
   font-size: 16px;
@@ -308,6 +309,8 @@ h1 {
 .wrrap-team {
   padding-top: 30px;
   padding-bottom: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 /***************************** portfolio-project ********************************************/
 .portfolio-project h3 {
@@ -356,6 +359,8 @@ h1 {
   margin-bottom: 30px;
   background: #ffffff;
   border: 1px solid #eeeeee;
+  width: 370px;
+  overflow: hidden;
 }
 .project-wrrap:nth-child(3n) {
   margin-right: 0;

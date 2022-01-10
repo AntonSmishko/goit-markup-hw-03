@@ -84,6 +84,9 @@ img {
   padding-bottom: 25px;
   padding-top: 24px;
 }
+.header > .main-nav {
+  border-bottom: 1px solid #ececec;
+}
 .header-portfolio {
   border-bottom: 1px solid #ececec;
 }

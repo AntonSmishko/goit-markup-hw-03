@@ -80,11 +80,10 @@ img {
 .main-nav {
   display: flex;
   align-items: center;
-  /* border-bottom: 1px solid #ececec; */
-  padding-bottom: 25px;
-  padding-top: 24px;
+  /* padding-bottom: 25px;
+  padding-top: 24px; */
 }
-.header > .main-nav {
+.header {
   border-bottom: 1px solid #ececec;
 }
 .header-portfolio {
@@ -92,6 +91,9 @@ img {
 }
 .header-nav {
   display: flex;
+  /* margin-left: 93px; */
+}
+.nav {
   margin-left: 93px;
 }
 /**************************************** site nav *****************************/
@@ -113,6 +115,7 @@ img {
   letter-spacing: 0.02em;
   padding-top: 32px;
   padding-bottom: 32px;
+  display: block;
 }
 .current {
   color: var(--accent-color);
@@ -126,7 +129,7 @@ img {
   display: flex;
   margin-left: auto;
 }
-.link-item:not(:last-child) {
+.header-link > .link-item:not(:last-child) {
   margin-right: 50px;
 }
 
@@ -156,7 +159,7 @@ h1 {
   background-color: #2f303a;
   padding-top: 200px;
   padding-bottom: 200px;
-  margin-bottom: 94px;
+  /* margin-bottom: 94px; */
 }
 .hero-title {
   display: flex;
@@ -253,6 +256,10 @@ h1 {
 .features-wrap:not(:last-child) {
   margin-right: 30px;
 }
+
+.advantages {
+  padding-top: 94px;
+}
 .features .title {
   font-weight: bold;
   font-size: 14px;
@@ -271,12 +278,20 @@ h1 {
   max-width: 270px;
 }
 /* *********************************WORK************************************ */
-.about-work,
+
+.work-wrrap,
 .bio {
   display: flex;
-  justify-content: space-between;
 }
+
+.about-work:not(:last-child) {
+  margin-right: 30px;
+}
+
 /***************************** team ***********************/
+.bio-wrrap:not(:last-child) {
+  margin-right: 30px;
+}
 
 .section-team {
   background-color: #f5f4fa;
@@ -326,7 +341,10 @@ h1 {
 }
 
 .project-item {
-  margin: 20px 24px;
+  padding: 20px 24px;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
 }
 
 .portfolio-project {
@@ -352,7 +370,6 @@ h1 {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 .project-wrrap h3 {
-  margin-top: 20px;
   margin-bottom: 4px;
 }
 .project-wrrap {
@@ -361,7 +378,7 @@ h1 {
   margin-right: 30px;
   margin-bottom: 30px;
   background: #ffffff;
-  border: 1px solid #eeeeee;
+  /* border: 1px solid #eeeeee; */
   width: 370px;
   overflow: hidden;
 }
@@ -377,7 +394,7 @@ h1 {
   background-color: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
-  padding-left: 215px;
+  /* padding-left: 215px; */
 }
 
 .footer-logo {
